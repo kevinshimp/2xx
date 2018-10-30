@@ -1,7 +1,7 @@
 <?php
 
      // Pulls data elements used through out the entier website
-     require_once 'menu.data.php';
+     require_once 'content.data.php';
 
      // Pulls functions used through out the entier website
      require_once 'functions.inc.php';
@@ -45,13 +45,13 @@
           </script>
      </head>
      <?php
-     //contnet displayed in the browser window
+     //content displayed in the browser window
      ?>
      <body>
           <header>
                <h1><a href="index.php"><?php echo $siteName; ?></a></h1>
                <h2>continuously falling forward in to the light...</h2>
                <nav>
-			     <?php echo menuBuilder($menuItems); ?>
+			     <?php echo menuBuilder($content['pages']); ?>
                </nav>
           </header>
