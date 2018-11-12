@@ -14,7 +14,7 @@
 
 <!doctype html>
      <?php
-          //this is begining of the html the browser will process
+          //this is beginning of the html the browser will process
      ?>
 <html>
      <?php
